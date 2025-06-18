@@ -1,0 +1,25 @@
+/* Layout Container */
+.layout-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar (Dashboard) */
+.dashboard {
+  width: 250px; /* Fixed width for the sidebar */
+  height: 100vh; /* Full viewport height */
+  background-color: #2c3e50; /* Sidebar background color */
+  color: #fff; /* Text color */
+  position: fixed; /* Fix the sidebar in place */
+  left: 0; /* Align to the left */
+  top: 0; /* Align to the top */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1; /* Take up remaining space */
+  margin-left: 250px; /* Match the width of the sidebar */
+  padding: 20px; /* Add some padding */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}

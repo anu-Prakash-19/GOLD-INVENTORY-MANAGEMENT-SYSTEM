@@ -1,0 +1,20 @@
+.default-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Take full height of the viewport */
+  margin-left: 150px; /* Match the width of the sidebar */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center text */
+}
+
+.default-content h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.default-content p {
+  font-size: 1.5rem;
+  color: #666;
+}
